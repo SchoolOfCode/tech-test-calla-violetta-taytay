@@ -51,12 +51,30 @@ Please answer the following questions:
 
    - Why do you think that was done, what are the advantages / disadvantages?
 
+   Avantages: 
+   - Separation of concerns, makes the code more readable
+   - Allows more than one person working together on the same project, teamates can work different components at the same time without merge conflicts.
+   - Components are reusable.
+
+   Disadvantages:
+   - You have to manage where each component is, file is also bigger and not everything is in one file.
+   - Can be overwelming
+   - Takes more time to send props up and down as they are not on the same level.
+
 2. Thinking about a production ready app, what do you think is missing from all the examples? _Hint: the square component in the standalone app has one_
+
+  - None of the other components have been tested.
 
 3. Are you familiar with Redux? If so what is the basic idea behind it and what would be a good case for using it?
 
+  - Unfortunately I have never used Redux, however from my understanding, with Redux, you can manage the state of your application in a single store, making it easier to   understand the flow of data through your app.
+
 4. _If you are interested in the full-stack role_ Please take a look at the partial implementation of an express routes in backend/router.js.
    - Thinking of a production application, what issues do you see with this code? _List as many as you like_
+
+  - There are no error handling in the requests 
+  - There are no tests for the route handling
+
 
 ### Coding Challenges
 
